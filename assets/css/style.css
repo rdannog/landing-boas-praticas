@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rufina', serif;
+}
+
+header{
+    height: 80vh;
+    background: linear-gradient(180deg, #D2A295, 30%, #BFD1D9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header-title{
+    font-size: 4.5rem;
+    color: #F7F7F7;
+}
+.header-subtitle{
+    width: 85%;
+    font-size: 2.25rem;
+    font-weight: 400;
+    color: #9D7F7F;
+}
+main{
+    background-color: #BFD1D9;
+}
+.main-section-box-title{
+    height: 28vh;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    width: 100%;
+}
+.main-container-box{
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-container-box-img{
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+.main-container-box-img-gym{
+    width: 200px;
+    height: 200px;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.main-container-box-text{
+    width: 70%;
+    font-weight: 700;
+}
+.main-container-box-text h3{
+    font-size: 2.2rem;
+    color: #1C3021;
+}
+.main-container-box-text p{
+    width: 68%;
+    margin-top: 1rem;
+    color: #383D40;
+    font-size: 1.8rem;
+}
+footer div{
+    color: #9D7F7F;
+    padding: 1rem;
+}
